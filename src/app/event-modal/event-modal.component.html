@@ -1,0 +1,23 @@
+@if (showModal) {
+
+<div class="modal fade d-block show animate__animated animate__fadeIn" id="eventModal" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Event Gallery</h5>
+        <button type="button" class="btn-close" (click)="closeModal()"></button>
+      </div>
+      <div class="modal-body">
+        <div class="image-gallery">
+          @for ( image of images; track $index; let i = $index) {
+
+          <a (click)="openLightbox(i)" >
+            <img [src]="image.src" class="gallery-img" />
+          </a>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+}
