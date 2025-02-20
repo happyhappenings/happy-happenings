@@ -501,7 +501,7 @@ ${n.map((r,i)=>`${i+1}) ${r.toString()}`).join(`
             background-position: bottom;
             background-repeat: no-repeat;
             position: relative;
-            -webkit-transform: translate3d(0, 0, 0);
+            --webkit-transform: translate3d(0, 0, 0);
             
 
           }
