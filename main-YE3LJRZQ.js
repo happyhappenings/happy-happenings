@@ -918,7 +918,8 @@ ${n.map((r,i)=>`${i+1}) ${r.toString()}`).join(`
 
             #wedding-love-story[_ngcontent-%COMP%]   .love-store-outer-wrapper[_ngcontent-%COMP%] {
               width: 92%;
-              margin: auto;
+              
+
               margin-bottom: 10%;
             }
 
