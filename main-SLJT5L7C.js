@@ -732,13 +732,13 @@ ${n.map((r,i)=>`${i+1}) ${r.toString()}`).join(`
           @media (max-width: 767px) {
             #sterling-wedding-banner[_ngcontent-%COMP%] {
               padding: 10% 0%;
-              padding-bottom: 60%;
+              padding-bottom: 25%;
               height: unset;
               background-size: 180% auto;
             }
 
             #sterling-wedding-banner[_ngcontent-%COMP%]   .navar-banner-img[_ngcontent-%COMP%] {
-              width: 35%;
+              width: 80%;
             }
 
             #sterling-wedding-banner[_ngcontent-%COMP%]   h1[_ngcontent-%COMP%] {
